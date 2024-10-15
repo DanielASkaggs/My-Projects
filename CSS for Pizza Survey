@@ -1,0 +1,92 @@
+body {
+background-image: url(https://i.postimg.cc/fRvTsPZr/pizza.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+font-family: Proxima Nova, Georgia;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  padding: 2rem ;
+  border-bottom: 0.1rem solid #3b3b4f;
+  margin-top: 10;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 3rem;
+  text-align: center;
+}
+
+h1, p{
+  text-align: center;
+}
+
+div {
+  display: block;
+  min-height: 10vh;
+}
+
+.inline {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.checkboxes {
+  margin: 1em 0 0 0;
+}
+
+.submit {
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 1em;
+background-color: #3b3b4f;
+min-width: 300px;
+}
+.radio {
+  margin: 1em 0 0 0;
+}
+
+#email, #number, #name {
+  width: 100%;
+  margin: 0.5em 0 1em 0;
+}
+
+textarea {
+  width: 100%;
+  margin: 1em 0 0 0;
+}
+
+#dropdown {
+  margin: 1.5em auto auto auto;
+  display: block;
+
+}
+
+input, textarea {
+  font-size: 1em;
+}
+
+input[type='radio'] {
+  transform: scale(2);
+}
+
+input[type='checkbox'] {
+  transform: scale(2);
+}
+
+input[type="submit"] {
+  transform: scale(2);
+}
+
+#dropdown {
+  transform: scale(2);
+}
